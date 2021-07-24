@@ -1,0 +1,41 @@
+name: test_tony
+description: A new Flutter project for technical test mobile developer.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.0.0
+  shimmer: ^2.0.0
+  dio: ^4.0.0
+  get: ^4.1.4
+  intl: ^0.17.0
+  flutter_bloc: ^7.0.1
+  equatable: ^2.0.3
+  google_fonts: ^2.1.0
+  convex_bottom_bar: ^3.0.0
+  webview_flutter: ^2.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/failed.png
+    - assets/images/no-data.png
+  
+  fonts:
+    - family:  LinearIcons
+      fonts:
+        - asset: assets/fonts/LinearIcons.ttf
