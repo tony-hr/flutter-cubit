@@ -1,6 +1,6 @@
-# test_tony
+# Simple Project using Flutter
 
-A new Flutter project for Technical Test - Frontend (Mobile) Developer
+A new Flutter project for Frontend and Cubit state management
 
 ## Getting Started
 
