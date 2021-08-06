@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Jendela Hukum',
       debugShowCheckedModeBanner: false,
       enableLog: true,
       logWriterCallback: Logger.write,
